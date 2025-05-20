@@ -27,7 +27,7 @@ This project applies statistical techniques and regression models to analyze net
 #### Packet Length Mean (BENIGN vs ATTACK)
 Boxplot showing clear separation between benign and attack flows.
 
-![Figure 1](./Figure_1.png)
+![Figure 1](Figure/Figure_1.png)
 
 #### Flow Duration Histogram by Label
 Attack flows are typically shorter and sharply peaked.
