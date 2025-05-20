@@ -32,12 +32,12 @@ Boxplot showing clear separation between benign and attack flows.
 #### Flow Duration Histogram by Label
 Attack flows are typically shorter and sharply peaked.
 
-![Figure 2](./Figure_2.png)
+![Figure 2](Figure/Figure_2.png)
 
 #### Feature Correlation Heatmap
 Visualizes correlation between selected numeric features and label.
 
-![Figure 3](./Figure_3.png)
+![Figure 3](Figure/Figure_3.png)
 
 ---
 
@@ -57,7 +57,7 @@ We performed independent T-tests on selected features:
 Logistic regression trained on scaled features.
 
 #### Confusion Matrix
-![Figure 4](./Figure_4.png)
+![Figure 4](Figure/Figure_4.png)
 
 #### Classification Metrics
 - Accuracy: **90%**
@@ -72,7 +72,7 @@ Logistic regression trained on scaled features.
 #### Boxplot by Predicted Class
 Packet Length Mean is lower for predicted attack flows.
 
-![Figure 5](./Figure_5.png)
+![Figure 5](Figure/Figure_5.png)
 
 ---
 
@@ -82,7 +82,7 @@ Packet Length Mean is lower for predicted attack flows.
 
 We built a linear regression model to predict continuous `Flow Duration` from packet-based features.
 
-![Figure 6 – Linear Regression](./Figure_6.png)
+![Figure 6 – Linear Regression](Figure/Figure_6.png)
 
 > R² Score and Mean Squared Error were calculated to evaluate the fit.
 
@@ -92,7 +92,7 @@ We built a linear regression model to predict continuous `Flow Duration` from pa
 
 Comparison of **Logistic Regression vs Random Forest** using classification metrics and confusion matrices.
 
-![Figure 7 – Model Comparison](./Figure_7.png)
+![Figure 7 – Model Comparison](Figure/Figure_7.png)
 
 > Random Forest slightly outperformed logistic regression, capturing non-linear patterns.
 
