@@ -75,19 +75,3 @@ Confirms that predicted attack flows have noticeably lower average packet size.
 ![Predicted Boxplot Packet Length Mean](./Figure_5.png)
 
 ---
-
-## 🛠 Tech Stack
-- Python 3.8+
-- Libraries: `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `statsmodels`
-
----
-
-## 👨‍💻 Author
-- **Name**: _Your Name_
-- **Course**: Applied Statistics
-- **Term**: 2024–2025
-
----
-
-## 📎 License
-MIT License (or as appropriate for your project)
