@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 from sklearn.preprocessing import StandardScaler
 
 # Load data
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # Select features and target
 features = [
