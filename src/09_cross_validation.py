@@ -6,7 +6,7 @@ from sklearn.pipeline import Pipeline
 import numpy as np
 
 # Load data
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # Select features and target
 features = [
