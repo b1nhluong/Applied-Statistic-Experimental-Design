@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 
 # --- ĐỌC DỮ LIỆU ---
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # --- CHỌN BIẾN ĐẦU VÀO & CHUẨN HÓA ---
 features = [
