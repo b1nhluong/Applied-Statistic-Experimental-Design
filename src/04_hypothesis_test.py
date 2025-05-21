@@ -2,7 +2,7 @@ import pandas as pd
 from scipy.stats import ttest_ind
 
 # Load the balanced dataset
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # Split data by label
 benign = df[df['Label'] == 0]
