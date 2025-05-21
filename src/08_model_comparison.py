@@ -8,7 +8,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load data
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # Features and target
 features = [
