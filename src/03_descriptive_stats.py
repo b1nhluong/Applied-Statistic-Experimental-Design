@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Đọc dữ liệu mẫu
-df = pd.read_csv('Thursday_Sampled_Balanced.csv')
+df = pd.read_csv('Data/Thursday_Sampled_Balanced.csv')
 
 # --- CÁC CỘT QUAN TÂM ---
 columns_of_interest = [
